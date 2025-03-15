@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Adult {
-    public static void main(String args[]){ 
+    public static void main(String args[]) {
         int age;
         System.out.println("enter the age");
         Scanner sc = new Scanner(System.in);
