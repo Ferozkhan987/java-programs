@@ -6,14 +6,14 @@ class Sumation {
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();
         int B = sc.nextInt();
-        summatationFunction(A, B);
-        
+        int sum = summatationFunction(A, B);
+        System.out.println(sum);
+
     }
 
-    public static void summatationFunction(int A, int B) {
+    public static int summatationFunction(int A, int B) {
         int sum;
         sum = A + B;
-        System.out.println(sum);
-        return ;
+        return sum;
     }
 }
