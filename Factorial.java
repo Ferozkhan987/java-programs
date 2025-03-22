@@ -13,6 +13,9 @@ class Factorial {
     public static int factorialnum(int A) {
         if (A == 0) {
             return 1;
+        } else if (A < 0) {
+            System.out.println("invalid number");
+            return 0;
         } else {
             int fac = factorialnum(A - 1);
             int B = A * fac;
