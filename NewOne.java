@@ -8,8 +8,8 @@ class NewOne {
         int p = 0;
         int ni = 0;
         int z = 0;
-        functionForCOunting(n);
-        System.out.println("the value of negitive num, positive num,zero are " + ni + " " + p + " " + z);
+        int num = functionForCOunting(n);
+        System.out.println("the value of negitive num, positive num,zero are " + num);
     }
 
     public static int functionForCOunting(int n) {
