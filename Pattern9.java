@@ -5,7 +5,8 @@ class Pattern9 {
         System.out.println("enter the number of number");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int f = 0;
+        System.out.println("enter the first value as 0 or 1");
+        int f = sc.nextInt();
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= i; j++) {
                 if (f == 1) {
