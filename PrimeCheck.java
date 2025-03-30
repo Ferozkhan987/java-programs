@@ -1,6 +1,6 @@
 import java.util.*;
 
- class PrimeCheck {
+class PrimeCheck {
     public static boolean isPrime(int n) {
         if (n <= 1)
             return false;
@@ -12,6 +12,6 @@ import java.util.*;
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(7) ? "Prime" : "Not Prime");
+        System.out.println(isPrime(7) ? "it is Prime" : "it's Not a Prime");
     }
 }
