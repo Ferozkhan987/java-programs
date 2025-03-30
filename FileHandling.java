@@ -17,7 +17,7 @@ class FileHandling {
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                System.out.println("File Content: " + line);
+                System.out.println("File Content: " + line number);
             }
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());

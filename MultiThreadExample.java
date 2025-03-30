@@ -21,8 +21,8 @@ class MyThread extends Thread {
 
 class MultiThreadExample {
     public static void main(String[] args) {
-        MyThread t1 = new MyThread("Thread 1");
-        MyThread t2 = new MyThread("Thread 2");
+        MyThread t1 = new MyThread("Thread 1 enter");
+        MyThread t2 = new MyThread("Thread 2 enter");
 
         t1.start();
         t2.start();
