@@ -13,7 +13,7 @@ class FileHandling {
             System.out.println("Error writing file: " + e.getMessage());
         }
 
-        // Reading from file
+        // Reading from file.
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             String line;
             while ((line = reader.readLine()) != null) {
