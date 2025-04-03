@@ -13,7 +13,7 @@ class Sumof1Ton {
 
     public static int sumationofn(int n, int sum) {
         for (int i = 0; i <= n; i++) {
-            sum=sum + i;  
+            sum = sum + i;// increment in line
 
         }
         return sum;
