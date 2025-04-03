@@ -15,9 +15,9 @@ class Number1 {
         for (int i = 0; i < n; i++) {
             System.out.print(" " + fac);
             fac = m + s;
-            m = s;
+            m = s;// assign the number
             s = fac;
-            
+
         }
     }
 }
