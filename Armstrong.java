@@ -5,7 +5,7 @@ public class Armstrong {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
+        int num = scanner.nextInt();// scanf
 
         int original = num, sum = 0;
         while (num > 0) {
