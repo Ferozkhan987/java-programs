@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LargestElement {
+public class LargestElement5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");

@@ -7,6 +7,7 @@ class Newprogram {
         int x = sc.nextInt();
         int pow = powerNum(n, x);
         System.out.println("the power of both is " + pow);// printing the output
+
     }
 
     public static int powerNum(int n, int x) {
@@ -15,5 +16,6 @@ class Newprogram {
             pow = n * pow;
         }
         return pow;
+
     }
 }
