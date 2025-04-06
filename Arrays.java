@@ -9,4 +9,5 @@ class Arrays {
         System.out.println(marks[1])
         }
     }
+    
 }
