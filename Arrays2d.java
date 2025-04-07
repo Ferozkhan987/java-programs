@@ -11,7 +11,12 @@ public class Arrays2d {
             for(int j = 0;j<col;j++){
                 numbers[i][j]=sc.nextInt();
             }
-        } 
+        }
+        for(int i = 0;i<row;i++){
+            for(int j = 0;j<col;j++){
+                System.out.println(numbers[i][j]);
+            }
+        }
     }
     
 }
