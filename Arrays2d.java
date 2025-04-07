@@ -23,6 +23,9 @@ public class Arrays2d {
                 if(x=numbers[i][j]){
                     System.out.println("printing rows"+i + "cols"+j );
                 }
+                else{
+                    System.out.println("number is not found");
+                }
             }
         }
     }
