@@ -12,9 +12,17 @@ public class Arrays2d {
                 numbers[i][j]=sc.nextInt();
             }
         }
+        int x= sc.nextInt();
         for(int i = 0;i<row;i++){
             for(int j = 0;j<col;j++){
                 System.out.println(numbers[i][j]);
+            }
+        }
+        for(int i = 0;i<row;i++){
+            for(int j = 0;j<col;j++){
+                if(x=numbers[i][j]){
+                    System.out.println("printing rows"+i + "cols"+j );
+                }
             }
         }
     }
