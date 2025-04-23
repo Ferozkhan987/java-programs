@@ -14,6 +14,8 @@ class GreaterNum {
     public static int greaterOfNum(int a, int b) {
         if (a < b) {
             return b;
+        } else if (a == b) {
+            System.err.println("both are equal");
         } else {
             return a;
         }
