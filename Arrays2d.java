@@ -24,7 +24,7 @@ public class Arrays2d {
                     System.out.println("printing rows"+i + "cols"+j );
                 }
                 else{
-                    System.out.println("number is not found");
+                    System.out.println("number is not found in the array");
                 }
             }
         }
