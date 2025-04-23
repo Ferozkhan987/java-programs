@@ -13,6 +13,6 @@ public class ArraySum {
             arr[i] = scanner.nextInt();
             sum += arr[i];
         }
-        System.out.println("Sum of elements: " + sum);
+        System.out.println("Sum of elements are : " + sum);
     }
 }
