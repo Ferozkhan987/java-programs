@@ -6,6 +6,9 @@ public class neww {
         Scanner sc = new Scanner(System.in);
         int str = sc.nextLine();
         System.out.println(str);
+        int num1= sc.nextInt();
+        int num2= sc.nextInt();
+        
         switch (str) {
             case 'add':
                 result = num1 + num2;
