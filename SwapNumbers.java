@@ -18,5 +18,6 @@ class SwapNumbers {
         a = x;
         x = temp;
         System.out.println("After Swapping\nz = " + z + "\ny = " + y);
+        System.out.println("Before Swapping\na = " + a + "\nx = " + x);
     }
 }
