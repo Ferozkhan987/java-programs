@@ -8,7 +8,10 @@ class GFG {
     public static void main(String args[]) {
         // We can change values here for
         // different inputs
-        float P = 10000, R = 5, T = 5;
+        Scanner sc = new Scanner(System.in);
+        float P =sc.nextInt();
+        R =sc.nextInt();
+        T = sc.nextInt();
 
         // Calculate simple interest
         float SI = (P * T * R) / 100;
