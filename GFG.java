@@ -9,7 +9,8 @@ class GFG {
         // We can change values here for
         // different inputs
         Scanner sc = new Scanner(System.in);
-        float P =sc.nextInt();
+        System.ou t.println(" enter principal value");
+        flo at P =sc.nextInt();
         R =sc.nextInt();
         T = sc.nextInt();
 
