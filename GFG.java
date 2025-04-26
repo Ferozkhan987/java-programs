@@ -9,9 +9,12 @@ class GFG {
         // We can change values here for
         // different inputs
         Scanner sc = new Scanner(System.in);
-        System.ou t.println(" enter principal value");
-        flo at P =sc.nextInt();
+        System.out.println(" enter principal value");
+        float P =sc.nextInt();
+        
+        System.out.println(" enter rate value");
         R =sc.nextInt();
+        System.out.println(" enter time value");
         T = sc.nextInt();
 
         // Calculate simple interest
