@@ -3,7 +3,7 @@
 // Descending Order by Sorting and Reversing
 import java.util.Arrays;
 
-class GFG {
+class GFG3 {
 
     public static void main(String[] args) {
 
