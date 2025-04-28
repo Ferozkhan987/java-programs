@@ -7,11 +7,11 @@ class GFG3 {
 
     public static void main(String[] args) {
 
-        int a[] = { 1, 2, 3, 4, 5 ,6,0};
+        int a[] = { 1, 2, 3, 4, 5, 6, 0 };
 
         // sort the array in ascending order
         Arrays.sort(a);
-
+        System.out.println(Arrays.toString(a));
         // reverse the array
         reverse(a);
 
