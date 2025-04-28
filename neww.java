@@ -6,6 +6,7 @@ public class neww {
         Scanner sc = new Scanner(System.in);
         int str = sc.nextLine();
         System.out.println(str);
+        System.out.println("scanig the input");
         int num1= sc.nextInt();
         int num2= sc.nextInt();
         
