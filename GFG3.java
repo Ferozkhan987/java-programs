@@ -11,6 +11,7 @@ class GFG3 {
 
         // sort the array in ascending order
         Arrays.sort(a);
+        System.out.println("printing the sorted array");
         System.out.println(Arrays.toString(a));
         // reverse the array
         reverse(a);
