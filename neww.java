@@ -11,7 +11,7 @@ public class neww {
         int num2= sc.nextInt();
         
         switch (str) {
-            case 'add':
+            case 'add': // addition
                 result = num1 + num2;
                 break;
             case 'sub':
