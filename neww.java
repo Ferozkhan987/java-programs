@@ -20,7 +20,7 @@ public class neww {
             case 'mul': //multiplication
                 result = num1 * num2;
                 break;
-            case 'div':
+            case 'div': //division
                 if (num2 != 0) {
                     result = num1 / num2;
                 } else {
