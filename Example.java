@@ -8,5 +8,6 @@ class Example {
         int s= m+2;
         int w = m+n;
         System.out.println("example file"+ m);
+        System.out.println("example file"+ w);
 
     }}
