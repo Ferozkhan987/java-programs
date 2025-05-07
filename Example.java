@@ -2,7 +2,7 @@ import java.util.*;
 
 class Example {
         Scanner sc = new Scanner(System.in);
-        int m = sc.nextInt();
+        int m = sc.nextInt();// input from user
         int n = sc.nextInt();
         System.out.println("example file"+ m);
         int s= m+2;
