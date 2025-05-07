@@ -3,7 +3,7 @@ import java.util.*;
 class Example {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();// input from user
-        int n = sc.nextInt();
+        int n = sc.nextInt();// 2 input from user
         System.out.println("example file"+ m);
         int s= m+2;
         int w = m+n;
