@@ -9,5 +9,6 @@ class Example {
         int w = m+n;
         System.out.println("example file"+ m);
         System.out.println("example file"+ w);
+        Scanner sc = new Scanner(System.in);
 
     }}
