@@ -11,5 +11,6 @@ class Example {
         System.out.println("example file"+ w);
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
+        int sum = a+m+n;
 
     }}
