@@ -1,14 +1,13 @@
+
 // Java program to take an integer
 // as input and print it
 import java.io.*;
 import java.util.Scanner;
 
 // Driver Class
-class Geeks
-{
+class Geeks {
     // main function
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // Declare the variables
         int num;
 
@@ -26,5 +25,18 @@ class Geeks
 
         // Close the Scanner object
         s.close(); // Important to prevent resource leaks
+    }
+
+    public static void main(String[] args)
+            throws IOException {
+        // Enter data using BufferReader
+        BufferedReader r = new BufferedReader(
+                new InputStreamReader(System.in));
+
+        // Reading data using readLine
+        String s = r.readLine();
+
+        // Printing the read line
+        System.out.println(s);
     }
 }
