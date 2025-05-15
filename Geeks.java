@@ -46,7 +46,7 @@ class Geeks {
 
         String s1 = s.nextLine();
         System.out.println("You entered string " + s1);
-
+        System.out.println("You entered integer ");
         int a = s.nextInt();
         System.out.println("You entered integer " + a);
         System.out.println("You entered float ");
