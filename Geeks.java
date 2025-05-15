@@ -49,7 +49,7 @@ class Geeks {
 
         int a = s.nextInt();
         System.out.println("You entered integer " + a);
-
+        System.out.println("You entered float ");
         float b = s.nextFloat();
         System.out.println("You entered float " + b);
     }
