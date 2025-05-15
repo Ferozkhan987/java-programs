@@ -16,7 +16,7 @@ class Geeks {
 
         // Create Scanner object
         Scanner s = new Scanner(System.in);
-
+        System.out.println("You entered integer ");
         // Read the next integer from the screen
         num = s.nextInt();
 
