@@ -61,6 +61,6 @@ class Geeks {
         System.out.println("Enter a string:");
         String s = scanner.nextLine();
 
-        System.out.println("You entered string " + s);
+        System.out.println("You entered string value " + s);
     }
 }
