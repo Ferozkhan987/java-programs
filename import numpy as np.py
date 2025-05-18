@@ -1,6 +1,6 @@
 import numpy as np
 
-years = np.array(['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'])
+years = np.array(['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5','year 6'])
 roi = np.array([10, 25, 50, 80, 120])  # ROI percentages
 
 plt.figure(figsize=(10, 6))
