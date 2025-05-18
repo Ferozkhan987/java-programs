@@ -9,5 +9,6 @@ plt.title('DataWise AI ROI Forecast (5 Years)')
 plt.xlabel('Time Period')
 plt.ylabel('ROI (%)')
 plt.grid(True, axis='y')
+plt.grid(True, axis='y')
 
 plt.savefig('roi_forecast.png')
