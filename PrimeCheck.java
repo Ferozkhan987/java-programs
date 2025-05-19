@@ -12,6 +12,6 @@ class PrimeCheck {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(7) ? "it is Prime" : "it's Not a Prime");
+        System.out.println(isPrime(7) ? "it is a Prime" : "it's Not a Prime");
     }
 }
