@@ -6,6 +6,6 @@ public class ReverseString {
     }
 
     public static void main(String[] args) {
-        System.out.println("Reversed: " + reverse("hello world"));
+        System.out.println("Reversed: " + reverse("hello world my name is zoref"));
     }
 }
