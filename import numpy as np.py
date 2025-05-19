@@ -11,4 +11,4 @@ plt.ylabel('ROI (%)')
 plt.grid(True, axis='y')
 plt.grid(True, axis='y')
 
-plt.savefig('roi_forecast.png')
+plt.savefig('roi_.png')
