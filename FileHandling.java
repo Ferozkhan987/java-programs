@@ -14,7 +14,7 @@ class FileHandling {
         }
 
         // Reading from file.
-        try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(feroz.c))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println("File Content: " + line number);
