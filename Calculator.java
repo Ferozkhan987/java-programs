@@ -30,7 +30,7 @@ public class Calculator {
                 }
                 break;
             default:
-                System.out.println("Invalid operator");
+                System.out.println("Invalid operator entered");
                 return;
         }
         System.out.println("Result: " + result);
