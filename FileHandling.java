@@ -8,7 +8,7 @@ class FileHandling {
         // Writing to file
         try (FileWriter writer = new FileWriter(filename)) {
             writer.write("Hello, this is a test file.");
-            System.out.println("File written successfully!");
+            System.out.println("File was written successfully!");
         } catch (IOException e) {
             System.out.println("Error writing file: " + e.getMessage());
         }
