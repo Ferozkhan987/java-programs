@@ -13,7 +13,6 @@ class FileHandling {
             System.out.println("Error writing file: " + e.getMessage());
         }
 
-        // Reading from file.
         try (BufferedReader reader = new BufferedReader(new FileReader(feroz.c))) {
             String line;
             while ((line = reader.readLine()) != null) {
