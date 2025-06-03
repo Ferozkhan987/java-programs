@@ -12,6 +12,6 @@ class LargestElement {
 
     public static void main(String[] args) {
         int[] num = { 3, 8, 2, 10, 5, 245 };
-        System.out.println("Largest: " + findLargest(numbers));
+        System.out.println("Largest: " + findLargest(num));
     }
 }
