@@ -6,7 +6,7 @@ class Adult {
         System.out.println("enter the age");
         Scanner sc = new Scanner(System.in);
         age = sc.nextInt();
-        if (age > 18) {
+        if (age => 18) {
             System.out.println("Adult");
         } else {
             System.out.println("not adult");
