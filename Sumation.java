@@ -6,7 +6,7 @@ class Sumation {
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();
         int B = sc.nextInt();
-        int sum = summatationFunction(A);
+        int sum = summatationFunction(A, B);
         System.out.println("the sum is");
         System.out.println(sum);
 
