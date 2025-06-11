@@ -7,7 +7,7 @@ class Sumation {
         int A = sc.nextInt();
         int B = sc.nextInt();
         int sum = summatationFunction(A, B);
-        System.out.println("the sum is");
+        System.out.println("the total sum is");
         System.out.println(sum);
 
     }
