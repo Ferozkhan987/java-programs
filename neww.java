@@ -14,7 +14,7 @@ public class neww {
             case 'add': // addition
                 result = num1 + num2;
                 break;
-            case 'sub': // substraction
+            case 'sub':
                 result = num1 - num2;
                 break;
             case 'mul':
