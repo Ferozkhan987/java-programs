@@ -55,8 +55,6 @@ public class GFG1 {
 				// Add the left size for the next boundary
 				boundary += sizeLeft;
 
-				// If 2 rotations has been made,
-				// decrease the size left by 1
 				if (flag != 2) {
 
 					flag = 2;
