@@ -49,7 +49,7 @@ public class GFG1 {
 			}
 
 			// Check if the matrix
-			// has reached array boundary
+			// has
 			if (i == boundary) {
 
 				boundary += sizeLeft;
