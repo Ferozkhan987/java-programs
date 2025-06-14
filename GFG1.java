@@ -36,8 +36,6 @@ public class GFG1 {
 				case 'l':
 					col -= 1;
 					break;
-
-				// if up, go up
 				case 'u':
 					row -= 1;
 					break;
