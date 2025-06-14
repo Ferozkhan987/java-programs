@@ -48,7 +48,6 @@ public class GFG1 {
 					break;
 			}
 
-			// Check
 			if (i == boundary) {
 
 				boundary += sizeLeft;
