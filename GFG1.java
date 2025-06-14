@@ -32,7 +32,6 @@ public class GFG1 {
 					col += 1;
 					break;
 
-				// if left, go left
 				case 'l':
 					col -= 1;
 					break;
