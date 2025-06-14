@@ -52,7 +52,6 @@ public class GFG1 {
 			// has reached array boundary
 			if (i == boundary) {
 
-				// Add the left size for the next boundary
 				boundary += sizeLeft;
 
 				if (flag != 2) {
