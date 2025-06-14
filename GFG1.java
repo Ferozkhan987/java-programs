@@ -48,8 +48,7 @@ public class GFG1 {
 					break;
 			}
 
-			// Check if the matrix
-
+			// Check
 			if (i == boundary) {
 
 				boundary += sizeLeft;
