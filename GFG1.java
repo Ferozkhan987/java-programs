@@ -42,7 +42,6 @@ public class GFG1 {
 					row -= 1;
 					break;
 
-				// if down, go down
 				case 'd':
 					row += 1;
 					break;
